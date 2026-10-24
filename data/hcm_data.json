@@ -1,0 +1,105 @@
+{
+  "initialized": false,
+  "settings": {
+    "companyName": "",
+    "officeStartTime": "09:00",
+    "graceMinutes": 15,
+    "halfDayThresholdHours": 5,
+    "weekendDays": [
+      0,
+      6
+    ],
+    "officeLocation": {
+      "lat": 24.8607,
+      "lng": 67.0011,
+      "radiusMeters": 150,
+      "address": "Zaitoon Ashraf IT Park, Karachi, Pakistan"
+    },
+    "latePenaltyEnabled": true,
+    "currency": "PKR"
+  },
+  "users": [],
+  "departments": [],
+  "designations": [],
+  "leaveTypes": [
+    {
+      "id": "lt-annual",
+      "name": "annual",
+      "code": "ANN",
+      "yearlyQuota": 14,
+      "paid": true,
+      "description": "Annual Paid Vacation Leave (14 days)"
+    },
+    {
+      "id": "lt-sick",
+      "name": "sick",
+      "code": "SCK",
+      "yearlyQuota": 8,
+      "paid": true,
+      "description": "Medical & Sick Leave (8 days)"
+    },
+    {
+      "id": "lt-casual",
+      "name": "casual",
+      "code": "CSL",
+      "yearlyQuota": 10,
+      "paid": true,
+      "description": "Short Casual & Personal Leave (10 days)"
+    },
+    {
+      "id": "lt-unpaid",
+      "name": "unpaid",
+      "code": "UNP",
+      "yearlyQuota": 999,
+      "paid": false,
+      "description": "Unpaid Leave (deducted from salary)"
+    }
+  ],
+  "holidays": [
+    {
+      "id": "h-1",
+      "name": "Pakistan Day",
+      "date": "2026-03-23",
+      "description": "National Holiday"
+    },
+    {
+      "id": "h-2",
+      "name": "Eid-ul-Fitr Day 1",
+      "date": "2026-03-20",
+      "description": "Public Holiday"
+    },
+    {
+      "id": "h-3",
+      "name": "Eid-ul-Fitr Day 2",
+      "date": "2026-03-21",
+      "description": "Public Holiday"
+    },
+    {
+      "id": "h-4",
+      "name": "Labor Day",
+      "date": "2026-05-01",
+      "description": "International Workers Day"
+    },
+    {
+      "id": "h-5",
+      "name": "Independence Day",
+      "date": "2026-08-14",
+      "description": "National Independence Day"
+    },
+    {
+      "id": "h-6",
+      "name": "Quaid-e-Azam Day",
+      "date": "2026-12-25",
+      "description": "Birth Anniversary of Quaid"
+    }
+  ],
+  "employees": [],
+  "attendance": [],
+  "attendanceCorrections": [],
+  "leaves": [],
+  "payrollRuns": [],
+  "announcements": [],
+  "notifications": [],
+  "auditLogs": [],
+  "aiLogs": []
+}

@@ -1,0 +1,6 @@
+{
+  "name": "HCM Lite - AI-assisted Human Capital Management",
+  "description": "Saylani Hackathon HCM Lite: Complete AI-assisted Human Capital Management web app featuring 9 modules, 3 roles (Admin, HR, Employee), camera attendance, payroll calculations, and real-data Gemini AI Assistant.",
+  "requestFramePermissions": ["camera", "geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
