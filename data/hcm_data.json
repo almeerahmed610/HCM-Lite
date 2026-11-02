@@ -1,0 +1,904 @@
+{
+  "initialized": true,
+  "settings": {
+    "companyName": "Saylani IT Training (PVT) Ltd.",
+    "officeStartTime": "09:00",
+    "graceMinutes": 15,
+    "halfDayThresholdHours": 5,
+    "weekendDays": [
+      0,
+      6
+    ],
+    "officeLocation": {
+      "lat": 24.8607,
+      "lng": 67.0011,
+      "radiusMeters": 150,
+      "address": "Zaitoon Ashraf IT Park, Karachi, Pakistan"
+    },
+    "latePenaltyEnabled": true,
+    "currency": "PKR"
+  },
+  "users": [
+    {
+      "id": "usr-admin-1",
+      "email": "admin@saylaniit.com",
+      "passwordHash": "aae7df8b790633db14e12758bf9df8582b0707cb39a3b4e32d67b74a09c5d28e",
+      "role": "admin",
+      "name": "Muhammad Bilal (Admin)",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2025-01-01T09:00:00Z",
+      "lastLoginAt": "2026-11-02T14:18:18.998Z"
+    },
+    {
+      "id": "usr-hr-1",
+      "email": "hr@saylaniit.com",
+      "passwordHash": "11a0477b315eedf9e607341730d209bb2b690eabb9b36e8a7147446b65c25c1f",
+      "role": "hr",
+      "name": "Ayesha Khan (HR Lead)",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2025-01-05T09:00:00Z",
+      "lastLoginAt": "2026-10-25T05:27:31.393Z"
+    },
+    {
+      "id": "usr-emp-1",
+      "email": "rashid@saylaniit.com",
+      "passwordHash": "44b6303b0c1f0dfab10afbef1893cee2e6d799e003d022a0e912edf4372eab46",
+      "role": "employee",
+      "employeeId": "emp-001",
+      "name": "Rashid Ali",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2025-01-15T09:00:00Z",
+      "lastLoginAt": "2026-10-25T05:15:33.001Z"
+    },
+    {
+      "id": "usr-emp-2",
+      "email": "fatima@saylaniit.com",
+      "passwordHash": "2fc0a95bcaac3babb4b0f3fb8b85e3225cac032f3f708bc596d2bd94de5994de",
+      "role": "employee",
+      "employeeId": "emp-002",
+      "name": "Fatima Zahra",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2025-06-01T09:00:00Z",
+      "lastLoginAt": "2026-10-25T05:28:58.754Z"
+    },
+    {
+      "id": "usr-emp-3",
+      "email": "hamza@saylaniit.com",
+      "passwordHash": "44b6303b0c1f0dfab10afbef1893cee2e6d799e003d022a0e912edf4372eab46",
+      "role": "employee",
+      "employeeId": "emp-003",
+      "name": "Hamza Tariq",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2025-03-10T09:00:00Z"
+    },
+    {
+      "id": "usr-emp-4",
+      "email": "usman@saylaniit.com",
+      "passwordHash": "44b6303b0c1f0dfab10afbef1893cee2e6d799e003d022a0e912edf4372eab46",
+      "role": "employee",
+      "employeeId": "emp-004",
+      "name": "Usman Ghani",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2024-11-01T09:00:00Z"
+    },
+    {
+      "id": "usr-emp-5",
+      "email": "zainab@saylaniit.com",
+      "passwordHash": "44b6303b0c1f0dfab10afbef1893cee2e6d799e003d022a0e912edf4372eab46",
+      "role": "employee",
+      "employeeId": "emp-005",
+      "name": "Zainab Bibi",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2025-08-15T09:00:00Z"
+    },
+    {
+      "id": "usr-emp-1792905868859",
+      "email": "almeer.ahmed610@gmail.com",
+      "passwordHash": "05bf1652573f9ee34a6d40cd43a7d341ac2b581317d28cf06b5f55d7aa39e68e",
+      "role": "employee",
+      "employeeId": "emp-1792905868859",
+      "name": "Almeer Ahmed",
+      "active": true,
+      "mustChangePassword": false,
+      "createdAt": "2026-10-25T05:24:28.859Z",
+      "lastLoginAt": "2026-10-25T05:25:48.006Z"
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-eng",
+      "name": "Software Engineering",
+      "code": "ENG",
+      "headName": "Rashid Ali"
+    },
+    {
+      "id": "dept-hr",
+      "name": "Human Capital & Talent",
+      "code": "HR",
+      "headName": "Ayesha Khan"
+    },
+    {
+      "id": "dept-ops",
+      "name": "Cloud & Infrastructure",
+      "code": "OPS",
+      "headName": "Usman Ghani"
+    },
+    {
+      "id": "dept-mkt",
+      "name": "Growth & Outreach",
+      "code": "MKT",
+      "headName": "Zainab Bibi"
+    }
+  ],
+  "designations": [
+    {
+      "id": "des-fsd",
+      "title": "Senior Full Stack Engineer",
+      "departmentId": "dept-eng"
+    },
+    {
+      "id": "des-ui",
+      "title": "Lead UI/UX Product Designer",
+      "departmentId": "dept-eng"
+    },
+    {
+      "id": "des-hr",
+      "title": "HR & People Operations Lead",
+      "departmentId": "dept-hr"
+    },
+    {
+      "id": "des-devops",
+      "title": "Cloud Infrastructure Architect",
+      "departmentId": "dept-ops"
+    },
+    {
+      "id": "des-growth",
+      "title": "Growth & Communications Lead",
+      "departmentId": "dept-mkt"
+    }
+  ],
+  "leaveTypes": [
+    {
+      "id": "lt-annual",
+      "name": "annual",
+      "code": "ANN",
+      "yearlyQuota": 14,
+      "paid": true,
+      "description": "Annual Paid Vacation Leave (14 days)"
+    },
+    {
+      "id": "lt-sick",
+      "name": "sick",
+      "code": "SCK",
+      "yearlyQuota": 8,
+      "paid": true,
+      "description": "Medical & Sick Leave (8 days)"
+    },
+    {
+      "id": "lt-casual",
+      "name": "casual",
+      "code": "CSL",
+      "yearlyQuota": 10,
+      "paid": true,
+      "description": "Short Casual & Personal Leave (10 days)"
+    },
+    {
+      "id": "lt-unpaid",
+      "name": "unpaid",
+      "code": "UNP",
+      "yearlyQuota": 999,
+      "paid": false,
+      "description": "Unpaid Leave (deducted from salary)"
+    }
+  ],
+  "holidays": [
+    {
+      "id": "h-1",
+      "name": "Pakistan Day",
+      "date": "2026-03-23",
+      "description": "National Holiday"
+    },
+    {
+      "id": "h-2",
+      "name": "Eid-ul-Fitr Day 1",
+      "date": "2026-03-20",
+      "description": "Public Holiday"
+    },
+    {
+      "id": "h-3",
+      "name": "Eid-ul-Fitr Day 2",
+      "date": "2026-03-21",
+      "description": "Public Holiday"
+    },
+    {
+      "id": "h-4",
+      "name": "Labor Day",
+      "date": "2026-05-01",
+      "description": "International Workers Day"
+    },
+    {
+      "id": "h-5",
+      "name": "Independence Day",
+      "date": "2026-08-14",
+      "description": "National Independence Day"
+    },
+    {
+      "id": "h-6",
+      "name": "Quaid-e-Azam Day",
+      "date": "2026-12-25",
+      "description": "Birth Anniversary of Quaid"
+    }
+  ],
+  "employees": [
+    {
+      "id": "emp-001",
+      "code": "EMP-001",
+      "firstName": "Rashid",
+      "lastName": "Ali",
+      "email": "rashid@saylaniit.com",
+      "phone": "+92 300 1234567",
+      "address": "Gulshan-e-Iqbal, Block 13-D, Karachi",
+      "departmentId": "dept-eng",
+      "designationId": "des-fsd",
+      "joiningDate": "2025-01-15",
+      "status": "active",
+      "gender": "male",
+      "emergencyContact": "+92 321 9876543 (Father)",
+      "basicSalary": 120000,
+      "hraAllowance": 48000,
+      "medicalAllowance": 12000,
+      "grossSalary": 180000,
+      "createdAt": "2025-01-15T09:00:00Z",
+      "updatedAt": "2026-10-24T09:00:00Z"
+    },
+    {
+      "id": "emp-002",
+      "code": "EMP-002",
+      "firstName": "Fatima",
+      "lastName": "Zahra",
+      "email": "fatima@saylaniit.com",
+      "phone": "+92 333 4567890",
+      "address": "Clifton Block 2, Karachi",
+      "departmentId": "dept-eng",
+      "designationId": "des-ui",
+      "joiningDate": "2025-06-01",
+      "status": "active",
+      "gender": "female",
+      "emergencyContact": "+92 300 5551234 (Brother)",
+      "basicSalary": 80000,
+      "hraAllowance": 32000,
+      "medicalAllowance": 8000,
+      "grossSalary": 120000,
+      "createdAt": "2025-06-01T09:00:00Z",
+      "updatedAt": "2026-10-24T09:00:00Z"
+    },
+    {
+      "id": "emp-003",
+      "code": "EMP-003",
+      "firstName": "Hamza",
+      "lastName": "Tariq",
+      "email": "hamza@saylaniit.com",
+      "phone": "+92 312 3456789",
+      "address": "Johar Town, Karachi",
+      "departmentId": "dept-hr",
+      "designationId": "des-hr",
+      "joiningDate": "2025-03-10",
+      "status": "active",
+      "gender": "male",
+      "emergencyContact": "+92 333 1112233",
+      "basicSalary": 70000,
+      "hraAllowance": 28000,
+      "medicalAllowance": 7000,
+      "grossSalary": 105000,
+      "createdAt": "2025-03-10T09:00:00Z",
+      "updatedAt": "2026-10-24T09:00:00Z"
+    },
+    {
+      "id": "emp-004",
+      "code": "EMP-004",
+      "firstName": "Usman",
+      "lastName": "Ghani",
+      "email": "usman@saylaniit.com",
+      "phone": "+92 345 8765432",
+      "address": "Federal B Area, Block 6, Karachi",
+      "departmentId": "dept-ops",
+      "designationId": "des-devops",
+      "joiningDate": "2024-11-01",
+      "status": "active",
+      "gender": "male",
+      "emergencyContact": "+92 300 8889900",
+      "basicSalary": 110000,
+      "hraAllowance": 44000,
+      "medicalAllowance": 11000,
+      "grossSalary": 165000,
+      "createdAt": "2024-11-01T09:00:00Z",
+      "updatedAt": "2026-10-24T09:00:00Z"
+    },
+    {
+      "id": "emp-005",
+      "code": "EMP-005",
+      "firstName": "Zainab",
+      "lastName": "Bibi",
+      "email": "zainab@saylaniit.com",
+      "phone": "+92 301 9988776",
+      "address": "DHA Phase 5, Karachi",
+      "departmentId": "dept-mkt",
+      "designationId": "des-growth",
+      "joiningDate": "2025-08-15",
+      "status": "probation",
+      "gender": "female",
+      "emergencyContact": "+92 321 4443322",
+      "basicSalary": 90000,
+      "hraAllowance": 36000,
+      "medicalAllowance": 9000,
+      "grossSalary": 135000,
+      "createdAt": "2025-08-15T09:00:00Z",
+      "updatedAt": "2026-10-24T09:00:00Z"
+    },
+    {
+      "id": "emp-1792905868859",
+      "code": "EMP-006",
+      "firstName": "Almeer",
+      "lastName": "Ahmed",
+      "email": "almeer.ahmed610@gmail.com",
+      "phone": "+923033486940",
+      "address": "",
+      "departmentId": "dept-eng",
+      "designationId": "des-fsd",
+      "joiningDate": "2026-10-24",
+      "status": "active",
+      "gender": "male",
+      "emergencyContact": "",
+      "basicSalary": 80000,
+      "hraAllowance": 32000,
+      "medicalAllowance": 8000,
+      "grossSalary": 120000,
+      "createdAt": "2026-10-25T05:24:28.859Z",
+      "updatedAt": "2026-10-25T05:24:28.859Z"
+    }
+  ],
+  "attendance": [
+    {
+      "id": "att-today-1",
+      "employeeId": "emp-001",
+      "date": "2026-10-24",
+      "checkInTime": "2026-10-24T08:55:00Z",
+      "status": "present",
+      "source": "camera",
+      "faceVerified": true,
+      "location": {
+        "lat": 24.86071,
+        "lng": 67.00112,
+        "distanceMeters": 12,
+        "accuracy": 15
+      },
+      "checkOutTime": "2026-10-25T05:19:54.216Z",
+      "totalHoursWorked": 20.42
+    },
+    {
+      "id": "att-today-3",
+      "employeeId": "emp-003",
+      "date": "2026-10-24",
+      "checkInTime": "2026-10-24T09:32:00Z",
+      "status": "late",
+      "source": "web"
+    },
+    {
+      "id": "att-today-4",
+      "employeeId": "emp-004",
+      "date": "2026-10-24",
+      "checkInTime": "2026-10-24T09:05:00Z",
+      "status": "present",
+      "source": "web"
+    },
+    {
+      "id": "att-today-5",
+      "employeeId": "emp-005",
+      "date": "2026-10-24",
+      "checkInTime": "2026-10-24T09:22:00Z",
+      "status": "late",
+      "source": "camera",
+      "faceVerified": true,
+      "location": {
+        "lat": 24.86068,
+        "lng": 67.00115,
+        "distanceMeters": 18,
+        "accuracy": 20
+      }
+    },
+    {
+      "id": "att-past-1",
+      "employeeId": "emp-003",
+      "date": "2026-10-23",
+      "checkInTime": "2026-10-23T09:40:00Z",
+      "checkOutTime": "2026-10-23T18:00:00Z",
+      "totalHoursWorked": 8.3,
+      "status": "late",
+      "source": "web"
+    },
+    {
+      "id": "att-past-2",
+      "employeeId": "emp-003",
+      "date": "2026-10-22",
+      "checkInTime": "2026-10-22T09:28:00Z",
+      "checkOutTime": "2026-10-22T18:15:00Z",
+      "totalHoursWorked": 8.7,
+      "status": "late",
+      "source": "web"
+    },
+    {
+      "id": "att-past-3",
+      "employeeId": "emp-001",
+      "date": "2026-10-23",
+      "checkInTime": "2026-10-23T08:50:00Z",
+      "checkOutTime": "2026-10-23T17:30:00Z",
+      "totalHoursWorked": 8.6,
+      "status": "present",
+      "source": "web"
+    },
+    {
+      "id": "att-past-4",
+      "employeeId": "emp-005",
+      "date": "2026-10-22",
+      "checkInTime": "2026-10-22T09:10:00Z",
+      "checkOutTime": "2026-10-22T13:30:00Z",
+      "totalHoursWorked": 4.3,
+      "status": "half_day",
+      "source": "web"
+    },
+    {
+      "id": "att-1792903975765",
+      "employeeId": "emp-002",
+      "date": "2026-10-24",
+      "checkInTime": "2026-10-25T04:52:55.765Z",
+      "status": "half_day",
+      "source": "web",
+      "faceVerified": false,
+      "checkOutTime": "2026-10-25T04:52:59.972Z",
+      "totalHoursWorked": 0
+    },
+    {
+      "id": "att-1792906013720",
+      "employeeId": "emp-1792905868859",
+      "date": "2026-10-24",
+      "checkInTime": "2026-10-25T05:26:53.682Z",
+      "status": "half_day",
+      "source": "camera",
+      "faceVerified": true,
+      "location": {
+        "lat": 24.86065204632123,
+        "lng": 67.0010907797279,
+        "distanceMeters": 5,
+        "accuracy": 12
+      },
+      "checkOutTime": "2026-10-25T05:27:06.285Z",
+      "totalHoursWorked": 0
+    },
+    {
+      "id": "att-1792906086802",
+      "employeeId": "emp-005",
+      "date": "2026-10-21",
+      "checkInTime": "2026-10-21T09:00:00Z",
+      "checkOutTime": "2026-10-21T18:00:00Z",
+      "status": "present",
+      "source": "web",
+      "totalHoursWorked": 8.5,
+      "notes": "Updated via approved correction: Reviewed by HR"
+    }
+  ],
+  "attendanceCorrections": [
+    {
+      "id": "cor-001",
+      "employeeId": "emp-005",
+      "date": "2026-10-21",
+      "requestedCheckIn": "09:00",
+      "requestedCheckOut": "18:00",
+      "reason": "Internet routing failure at home during remote shift punch",
+      "status": "approved",
+      "createdAt": "2026-10-22T10:00:00Z",
+      "hrComment": "Reviewed by HR",
+      "reviewedBy": "usr-hr-1",
+      "reviewedAt": "2026-10-25T05:28:06.801Z"
+    }
+  ],
+  "leaves": [
+    {
+      "id": "lv-001",
+      "employeeId": "emp-002",
+      "leaveTypeId": "lt-casual",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-26",
+      "workingDays": 1,
+      "reason": "Attending younger sister wedding ceremony in Lahore",
+      "status": "approved",
+      "hrComment": "Approved. Enjoy the family celebration!",
+      "reviewedBy": "usr-hr-1",
+      "reviewedAt": "2026-10-23T16:00:00Z",
+      "createdAt": "2026-10-23T11:20:00Z"
+    },
+    {
+      "id": "lv-002",
+      "employeeId": "emp-004",
+      "leaveTypeId": "lt-sick",
+      "startDate": "2026-10-20",
+      "endDate": "2026-10-21",
+      "workingDays": 2,
+      "reason": "Seasonal viral flu and doctor recommended bed rest",
+      "status": "approved",
+      "hrComment": "Approved. Get well soon!",
+      "reviewedBy": "usr-hr-1",
+      "reviewedAt": "2026-10-20T10:00:00Z",
+      "createdAt": "2026-10-20T08:30:00Z"
+    },
+    {
+      "id": "lv-003",
+      "employeeId": "emp-001",
+      "leaveTypeId": "lt-annual",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-06",
+      "workingDays": 5,
+      "reason": "Annual vacation trip to northern areas with family",
+      "status": "pending",
+      "createdAt": "2026-10-24T08:00:00Z"
+    }
+  ],
+  "payrollRuns": [
+    {
+      "id": "pay-2026-09",
+      "month": "2026-09",
+      "year": 2026,
+      "totalWorkingDays": 22,
+      "totalGross": 705000,
+      "totalDeductions": 0,
+      "totalTax": 43250,
+      "totalNet": 661750,
+      "employeeCount": 5,
+      "status": "finalized",
+      "preparedBy": "usr-hr-1",
+      "preparedAt": "2026-09-30T17:00:00Z",
+      "finalizedBy": "usr-admin-1",
+      "finalizedAt": "2026-10-01T10:00:00Z",
+      "items": [
+        {
+          "employeeId": "emp-001",
+          "employeeCode": "EMP-001",
+          "employeeName": "Rashid Ali",
+          "department": "Software Engineering",
+          "designation": "Senior Full Stack Engineer",
+          "joiningDate": "2025-01-15",
+          "basicSalary": 120000,
+          "hra": 48000,
+          "medical": 12000,
+          "grossSalary": 180000,
+          "workingDaysInMonth": 22,
+          "daysPresent": 22,
+          "daysLate": 1,
+          "daysHalfDay": 0,
+          "daysAbsent": 0,
+          "daysUnpaidLeave": 0,
+          "latePenaltyDays": 0,
+          "proratedFactor": 1,
+          "deductionsAbsent": 0,
+          "deductionsUnpaid": 0,
+          "deductionsHalfDay": 0,
+          "deductionsLatePenalty": 0,
+          "totalDeductions": 0,
+          "annualizedGross": 2160000,
+          "annualTax": 174000,
+          "monthlyTax": 14500,
+          "netSalary": 165500
+        },
+        {
+          "employeeId": "emp-002",
+          "employeeCode": "EMP-002",
+          "employeeName": "Fatima Zahra",
+          "department": "Software Engineering",
+          "designation": "Lead UI/UX Product Designer",
+          "joiningDate": "2025-06-01",
+          "basicSalary": 80000,
+          "hra": 32000,
+          "medical": 8000,
+          "grossSalary": 120000,
+          "workingDaysInMonth": 22,
+          "daysPresent": 22,
+          "daysLate": 1,
+          "daysHalfDay": 0,
+          "daysAbsent": 0,
+          "daysUnpaidLeave": 0,
+          "latePenaltyDays": 0,
+          "proratedFactor": 1,
+          "deductionsAbsent": 0,
+          "deductionsUnpaid": 0,
+          "deductionsHalfDay": 0,
+          "deductionsLatePenalty": 0,
+          "totalDeductions": 0,
+          "annualizedGross": 1440000,
+          "annualTax": 66000,
+          "monthlyTax": 5500,
+          "netSalary": 114500
+        },
+        {
+          "employeeId": "emp-003",
+          "employeeCode": "EMP-003",
+          "employeeName": "Hamza Tariq",
+          "department": "Human Capital & Talent",
+          "designation": "HR & People Operations Lead",
+          "joiningDate": "2025-03-10",
+          "basicSalary": 70000,
+          "hra": 28000,
+          "medical": 7000,
+          "grossSalary": 105000,
+          "workingDaysInMonth": 22,
+          "daysPresent": 22,
+          "daysLate": 1,
+          "daysHalfDay": 0,
+          "daysAbsent": 0,
+          "daysUnpaidLeave": 0,
+          "latePenaltyDays": 0,
+          "proratedFactor": 1,
+          "deductionsAbsent": 0,
+          "deductionsUnpaid": 0,
+          "deductionsHalfDay": 0,
+          "deductionsLatePenalty": 0,
+          "totalDeductions": 0,
+          "annualizedGross": 1260000,
+          "annualTax": 39000,
+          "monthlyTax": 3250,
+          "netSalary": 101750
+        },
+        {
+          "employeeId": "emp-004",
+          "employeeCode": "EMP-004",
+          "employeeName": "Usman Ghani",
+          "department": "Cloud & Infrastructure",
+          "designation": "Cloud Infrastructure Architect",
+          "joiningDate": "2024-11-01",
+          "basicSalary": 110000,
+          "hra": 44000,
+          "medical": 11000,
+          "grossSalary": 165000,
+          "workingDaysInMonth": 22,
+          "daysPresent": 22,
+          "daysLate": 1,
+          "daysHalfDay": 0,
+          "daysAbsent": 0,
+          "daysUnpaidLeave": 0,
+          "latePenaltyDays": 0,
+          "proratedFactor": 1,
+          "deductionsAbsent": 0,
+          "deductionsUnpaid": 0,
+          "deductionsHalfDay": 0,
+          "deductionsLatePenalty": 0,
+          "totalDeductions": 0,
+          "annualizedGross": 1980000,
+          "annualTax": 147000,
+          "monthlyTax": 12250,
+          "netSalary": 152750
+        },
+        {
+          "employeeId": "emp-005",
+          "employeeCode": "EMP-005",
+          "employeeName": "Zainab Bibi",
+          "department": "Growth & Outreach",
+          "designation": "Growth & Communications Lead",
+          "joiningDate": "2025-08-15",
+          "basicSalary": 90000,
+          "hra": 36000,
+          "medical": 9000,
+          "grossSalary": 135000,
+          "workingDaysInMonth": 22,
+          "daysPresent": 22,
+          "daysLate": 1,
+          "daysHalfDay": 0,
+          "daysAbsent": 0,
+          "daysUnpaidLeave": 0,
+          "latePenaltyDays": 0,
+          "proratedFactor": 1,
+          "deductionsAbsent": 0,
+          "deductionsUnpaid": 0,
+          "deductionsHalfDay": 0,
+          "deductionsLatePenalty": 0,
+          "totalDeductions": 0,
+          "annualizedGross": 1620000,
+          "annualTax": 93000,
+          "monthlyTax": 7750,
+          "netSalary": 127250
+        }
+      ]
+    }
+  ],
+  "announcements": [
+    {
+      "id": "ann-001",
+      "title": "Saylani Hackathon 2026 - Zaitoon Ashraf IT Park",
+      "content": "Welcome all engineering teams and mentors to the 2026 HCM Lite Challenge! Today we evaluate full end-to-end HR operations, AI tools, and camera geofence attendance.",
+      "authorId": "usr-admin-1",
+      "authorName": "Muhammad Bilal (Admin)",
+      "authorRole": "admin",
+      "priority": "urgent",
+      "createdAt": "2026-10-24T08:00:00Z"
+    },
+    {
+      "id": "ann-002",
+      "title": "October 2026 Payroll Draft Preparation",
+      "content": "HR operations have generated the monthly payroll draft for October. Department heads are requested to confirm all pending leave and attendance correction requests by end of day.",
+      "authorId": "usr-hr-1",
+      "authorName": "Ayesha Khan (HR Lead)",
+      "authorRole": "hr",
+      "priority": "important",
+      "createdAt": "2026-10-23T14:30:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "notif-1792906086802-ks42",
+      "createdAt": "2026-10-25T05:28:06.802Z",
+      "read": false,
+      "userId": "emp-005",
+      "title": "Attendance Correction Approved",
+      "message": "Your correction request for 2026-10-21 has been approved. Comment: Reviewed by HR",
+      "type": "attendance"
+    },
+    {
+      "id": "notif-1",
+      "userId": "usr-emp-2",
+      "title": "Leave Approved",
+      "message": "Your casual leave request for sister wedding (2026-10-24 to 2026-10-26) was approved by HR.",
+      "type": "leave",
+      "read": false,
+      "createdAt": "2026-10-23T16:01:00Z"
+    },
+    {
+      "id": "notif-2",
+      "userId": "usr-emp-1",
+      "title": "September Payslip Available",
+      "message": "Your payslip for September 2026 has been generated and finalized. Net pay: PKR 172,000.",
+      "type": "payroll",
+      "read": true,
+      "createdAt": "2026-10-01T10:05:00Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "aud-1792905996321-wahg",
+      "timestamp": "2026-10-25T05:26:36.321Z",
+      "actorId": "usr-emp-1792905868859",
+      "actorName": "Almeer Ahmed",
+      "actorRole": "employee",
+      "action": "update",
+      "entity": "user",
+      "entityId": "usr-emp-1792905868859",
+      "summary": "User almeer.ahmed610@gmail.com changed their password."
+    },
+    {
+      "id": "aud-1792905868859-er6i",
+      "timestamp": "2026-10-25T05:24:28.859Z",
+      "actorId": "usr-hr-1",
+      "actorName": "Ayesha Khan (HR Lead)",
+      "actorRole": "hr",
+      "action": "create",
+      "entity": "employee",
+      "entityId": "emp-1792905868859",
+      "summary": "Registered new employee EMP-006 (Almeer Ahmed) with login created.",
+      "afterData": {
+        "id": "emp-1792905868859",
+        "code": "EMP-006",
+        "firstName": "Almeer",
+        "lastName": "Ahmed",
+        "email": "almeer.ahmed610@gmail.com",
+        "phone": "+923033486940",
+        "address": "",
+        "departmentId": "dept-eng",
+        "designationId": "des-fsd",
+        "joiningDate": "2026-10-24",
+        "status": "active",
+        "gender": "male",
+        "emergencyContact": "",
+        "basicSalary": 80000,
+        "hraAllowance": 32000,
+        "medicalAllowance": 8000,
+        "grossSalary": 120000,
+        "createdAt": "2026-10-25T05:24:28.859Z",
+        "updatedAt": "2026-10-25T05:24:28.859Z"
+      }
+    },
+    {
+      "id": "aud-1792903921349-w5qr",
+      "timestamp": "2026-10-25T04:52:01.349Z",
+      "actorId": "usr-emp-2",
+      "actorName": "Fatima Zahra",
+      "actorRole": "employee",
+      "action": "update",
+      "entity": "user",
+      "entityId": "usr-emp-2",
+      "summary": "User fatima@saylaniit.com changed their password."
+    },
+    {
+      "id": "aud-1792903725577-gmvk",
+      "timestamp": "2026-10-25T04:48:45.577Z",
+      "actorId": "usr-admin-1",
+      "actorName": "Muhammad Bilal (Admin)",
+      "actorRole": "admin",
+      "action": "update",
+      "entity": "company",
+      "summary": "Updated company configuration settings and office geofence rules.",
+      "beforeData": {
+        "companyName": "Saylani IT Training (PVT) Ltd.",
+        "officeStartTime": "09:00",
+        "graceMinutes": 15,
+        "halfDayThresholdHours": 5,
+        "weekendDays": [
+          0,
+          6
+        ],
+        "officeLocation": {
+          "lat": 24.8607,
+          "lng": 67.0011,
+          "radiusMeters": 150,
+          "address": "Zaitoon Ashraf IT Park, Karachi, Pakistan"
+        },
+        "latePenaltyEnabled": true,
+        "currency": "PKR"
+      },
+      "afterData": {
+        "companyName": "Saylani IT Training (PVT) Ltd.",
+        "officeStartTime": "09:00",
+        "graceMinutes": 15,
+        "halfDayThresholdHours": 5,
+        "weekendDays": [
+          0,
+          6
+        ],
+        "officeLocation": {
+          "lat": 24.8607,
+          "lng": 67.0011,
+          "radiusMeters": 150,
+          "address": "Zaitoon Ashraf IT Park, Karachi, Pakistan"
+        },
+        "latePenaltyEnabled": true,
+        "currency": "PKR"
+      }
+    },
+    {
+      "id": "aud-1792903673833-sr0z",
+      "timestamp": "2026-10-25T04:47:53.833Z",
+      "actorId": "usr-admin-1",
+      "actorName": "Muhammad Bilal",
+      "actorRole": "admin",
+      "action": "finalize",
+      "entity": "payroll",
+      "entityId": "pay-2026-09",
+      "summary": "Locked and finalized September 2026 monthly payroll run."
+    },
+    {
+      "id": "aud-1792903673833-2qja",
+      "timestamp": "2026-10-25T04:47:53.833Z",
+      "actorId": "usr-hr-1",
+      "actorName": "Ayesha Khan",
+      "actorRole": "hr",
+      "action": "approve",
+      "entity": "leave",
+      "entityId": "lv-001",
+      "summary": "Approved casual leave request for Fatima Zahra (2026-10-24 to 2026-10-26)."
+    },
+    {
+      "id": "aud-1792903673833-ormk",
+      "timestamp": "2026-10-25T04:47:53.833Z",
+      "actorId": "usr-admin-1",
+      "actorName": "Muhammad Bilal",
+      "actorRole": "admin",
+      "action": "create",
+      "entity": "company",
+      "entityId": "company-saylani",
+      "summary": "Configured company profile, office start time 09:00, 15m grace, and geofence location at Zaitoon Ashraf IT Park."
+    }
+  ],
+  "aiLogs": []
+}
